@@ -3,6 +3,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Oxygen', sans-serif;
+  color: #E5E8E8
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 #map {
@@ -13,23 +19,30 @@ body {
 
 #topright, #myStuff {
   padding-bottom: 20px;
-  font-family: 'Chewy', cursive;
+
 }
 
 #numbered {
   padding-top: 20px;
   padding-bottom: 20px;
-}
 
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-  background-color: aquamarine;
 }
 
 .navbar {
   margin-bottom: 0px;
   font-family: 'Comfortaa', cursive;
+  ;
 }
 
 .container {
   padding: 0px;
+}
+
+.myowncolor {
+  background-color: blanchedalmond;
+  color: navy;
+}
+
+.btn-x{
+  background-color: silver
 }
